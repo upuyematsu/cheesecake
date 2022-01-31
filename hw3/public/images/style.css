@@ -1,0 +1,128 @@
+/* Alec Uyematsu */
+  body {
+    background-color: rgb(209, 190, 148);
+  }
+
+  /* header */
+  h1 {
+    color: rgb(100, 131, 113);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  /* 'Topping:' */
+  p {
+    color: rgb(61, 61, 61);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3%;
+    margin-left: 30%;
+  }
+
+  /* Cheesecake img */
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+ 
+  /* bullet points */
+  ul{
+    display: block;
+    margin-left: 80%;
+    margin-right: auto;
+  }
+  
+  /* submit button */
+  button{
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+  }
+
+  /* all labels */
+  label{
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  /* textbox */
+  textarea{
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+  }
+
+  /* quantity box */
+  select{
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: 1%;
+  }
+
+  /* Topping selections */
+  input{
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: 0%;
+  }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  margin-left: 73%;
+  width:225px;
+  border:1px solid green; 
+  overflow: hidden;
+}
+.text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block; 
+    padding: 10px;
+}
+/* Dropdown Button */
+.dropbtn {
+  float: right;
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  height: 100px;
+  overflow: scroll;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
